@@ -1,4 +1,4 @@
-/*
+;/*
  * Globals
  */
 
@@ -26,7 +26,7 @@ a:hover {
 
 html,
 body {
-	background: url('../img/bg.jpg') no-repeat center center fixed; 
+	background: url('../assets/img/turkey.jpg') no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -111,20 +111,22 @@ body {
     float: right;
   }
 }
-
-
 /*
- * Cover
+ *Inner cover
+ *
  */
 
-.cover {
-  padding: 0 20px;
+.inner-left {
+    text-align:center;
+	font-style:bold;
+	font-size:40px;
+	
 }
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
+.inner-right {
+	padding-top:50px;
+	font-size:15px;
+    text-align:center
 }
-
 
 /*
  * Footer
@@ -133,6 +135,7 @@ body {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+  
 }
 
 
@@ -160,12 +163,20 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+  .inner-left {
+	  text-align:left;
+      float:left;
+  }
+  .inner-right {
+	  float:right;
+      text-align:right
+  }
 }
 
 @media (min-width: 992px) {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 992px;
   }
 }
