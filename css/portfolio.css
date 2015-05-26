@@ -1,0 +1,23 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/*
+ * Header
+ */
+/*
+ * Header
+ */
+.btn {
+	background-color:#999999;
+	border:0px;
+}
+.btn a:hover,
+.btn a:focus {
+	background-color:#000000;
+}
+
+footer {
+    margin: 50px 0;
+}
