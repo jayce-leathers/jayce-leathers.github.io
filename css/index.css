@@ -123,7 +123,7 @@ body {
  *
  */
 .inner-cover {
-	width:1080px;
+	width:1080px
 }
 .inner-left {
     text-align:center;
@@ -144,7 +144,9 @@ body {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
-
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
 }
 
 
@@ -180,20 +182,15 @@ body {
 	  float:right;
       text-align:right
   }
-/*  .sections {
-	  float:right;
-  }
-  .header {
-	  float:left;
-  }*/
 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1080px) {
   .masthead,
-  .mastfoot,
   .cover-container,
-  .portfolio {
-    width: 992px;
+  .portfolio
+  .mastfoot{
+    width: 1080px;
   }
+
 }
