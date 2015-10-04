@@ -5,3 +5,26 @@
   border-radius: 25px;
   padding: 10px;
 }
+
+.about h1 {
+  font-size: 50px;
+}
+
+.about p {
+  font-size: 25px;
+}
+.button {
+  color:white;
+  background-color: black;
+  border-radius: 25px;
+  padding: 5px;
+}
+.button :hover {
+  color:gray;
+}
+
+@media (min-width: 768px) {
+  .about {
+    width: 768px;
+  }
+}
