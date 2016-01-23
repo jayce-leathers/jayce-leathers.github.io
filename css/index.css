@@ -21,15 +21,28 @@ body {
   display: inline-block;
 }*/
 .namebreak {
-  display: block;
+  /*display: block;*/
+    display: flex;
 }
 .site-wrapper {
-  display: block;
+  /*display: block;*/
+    display: flex;
+    flex-direction:column;
+}
+.left {
+  display: flex;
+  flex-direction: column;
 }
 .title {
   /*text-align: center;*/
   white-space: normal !important;
   font-size: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.logo {
+
   margin-left: 50px;
   margin-top: 50px;
 }
@@ -42,7 +55,7 @@ body {
 }
 .links {
   /*height: 200px;*/
-  margin-left: 40px;
+  margin-left: 20px;
   margin-top: 25px;
   padding: 0;
   list-style-type: none;
@@ -88,6 +101,11 @@ a {
   #wizard {
   margin-top: 100px;
   font-size: 80px;
+  }
+  .site-wrapper {
+    /*display: block;*/
+      display: flex;
+      flex-direction:row;
   }
   .links {
     text-align: left;
