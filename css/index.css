@@ -1,6 +1,6 @@
 body {
   height: 100%;
-  width: 100%;
+  max-width: 100%;
   overflow-x:hidden;
 }
 .namebreak {
@@ -12,43 +12,35 @@ body {
   text-align: center;
 }
 .title {
-  /*white-space: normal;*/
   font-size: 50px;
   text-align: center;
 }
 
 .logo {
-  width: 50%;
+  max-width: 50%;
   height: auto;
 }
 
 .links {
   list-style-type: none;
   max-width: 100%;
-  /*margin-left: 0;*/
   padding-left: 0;
 }
 .links li {
+  padding:.5em;
+  max-width: 100%;
   display: block;
   list-style-type: none;
-  /*padding: .2em 1em;*/
 }
 .links li:hover {
   background-color: red;
-  /*text-decoration: none;*/
-  /*font-size: 20px;*/
 }
-/*.contact {
-  /*margin-top: 50px;*/
-  /*display: block;
-  text-align: center;
-}*/
+
 a {
   text-decoration: none;
   color: black;
   font-size: 30px;
 }
-
 
 @media(min-width:751px) {
   .namebreak {
@@ -56,7 +48,6 @@ a {
   }
 
   .title {
-    /*text-align: left;*/
     font-size: 75px;
   }
   .site-wrapper {
@@ -64,12 +55,9 @@ a {
     justify-content: center;
     flex-direction:column;
   }
-  .links {
-    /*text-align: left;*/
-  }
+
   .links li{
     display: inline-block;
-    /*margin-top: 100px;*/
   }
 
 }
