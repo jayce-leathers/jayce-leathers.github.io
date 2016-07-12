@@ -1,6 +1,7 @@
 body {
   height: 100%;
   width: 100%;
+  overflow-x:hidden;
 }
 .namebreak {
   display: flex;
@@ -23,6 +24,9 @@ body {
 
 .links {
   list-style-type: none;
+  /*width: 100%;*/
+  /*margin-left: 0;*/
+  padding-left: 0;
 }
 .links li {
   display: block;
@@ -34,16 +38,16 @@ body {
   /*text-decoration: none;*/
   /*font-size: 20px;*/
 }
-.contact {
+/*.contact {
   /*margin-top: 50px;*/
-  display: block;
+  /*display: block;
   text-align: center;
-}
+}*/
 a {
   text-decoration: none;
   color: black;
   font-size: 30px;
-  }
+}
 
 
 @media(min-width:751px) {
@@ -56,7 +60,6 @@ a {
     font-size: 75px;
   }
   .site-wrapper {
-    /*display: block;*/
     display: flex;
     justify-content: center;
     flex-direction:column;
