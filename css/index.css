@@ -17,11 +17,6 @@ body {
 }
 
 .logo {
-  width: 100%;
-  height: auto;
-}
-
-.logo-image {
   width: 50%;
   height: auto;
 }
@@ -61,20 +56,19 @@ a {
   .namebreak {
     display: none;
   }
-  .logo {
-    display: flex;
+  /*.logo {
+    display: flex;*/
     /*margin-left: 50px;
     margin-top: 50px;*/
     /*height: 400px;
     width: 500px;*/
-    width: 100%;
+      /*width: 50%;
     height: auto;
     justify-content: center;
   }
   .logo-image {
-    width: 20%;
     height: auto;
-  }
+  }*/
   .title {
     /*text-align: left;*/
     font-size: 75px;
