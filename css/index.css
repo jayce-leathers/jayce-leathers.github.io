@@ -27,6 +27,13 @@ body {
   padding-left: 0;
 }
 .links li {
+  -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
   padding:.5em;
   max-width: 100%;
   display: block;
