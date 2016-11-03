@@ -15,11 +15,18 @@ body {
   margin: 0;
   font-size: 50px;
   text-align: center;
+  padding-bottom: 5px;
 }
 
 .logo {
   max-width: 50%;
   height: auto;
+}
+
+.app-icon {
+  border-radius: 18px;
+  /*max-width: 20%;
+  height: auto;*/
 }
 
 .links {
@@ -41,11 +48,27 @@ body {
   display: block;
   list-style-type: none;
 }
-.links li:hover {
+
+.links a:hover {
+  text-decoration: none;
+}
+.links #red:hover {
   background-color: red;
 }
+.links #green:hover {
+  background-color: #1fe086;
+}
 
-a {
+.links #blue:hover {
+  background-color: turquoise;
+}
+.links #orange:hover {
+  background-color: orange;
+}
+.links #violet:hover {
+  background-color: violet;
+}
+.links a {
   text-decoration: none;
   color: black;
   font-size: 30px;
